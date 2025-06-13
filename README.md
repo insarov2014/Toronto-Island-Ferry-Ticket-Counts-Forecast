@@ -13,7 +13,10 @@ The code part includes three .ipynb files, and .py files and one .pkl file.
    
    c) model_metric_rmse.py
    
-   c) model_metric_mape.py
+   d) model_metric_mape.py
+
+   e) my_model.pkl
+   
    
 3) sales count forecast
    
