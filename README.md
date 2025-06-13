@@ -7,7 +7,7 @@ The code part includes three .ipynb files, and three .py files and one .pkl file
 
 1) redemption count forecast
    
-   a) Modelling.ipynb
+   a) Modelling.ipynb (an improved model is HW = statsforecast.models.HoltWinters(error_type='A', season_length = 365))
    
    b) model_metric_mae.py
    
@@ -20,7 +20,13 @@ The code part includes three .ipynb files, and three .py files and one .pkl file
    
 3) sales count forecast
    
-   a) SalesCount_Forecasting.ipynb
+   a) SalesCount_Forecasting.ipynb (chosen model is ExtraTreesRegressor(n_estimators = 121,
+max_depth = 16,
+min_samples_split = 12,
+min_samples_leaf = 9,
+max_leaf_nodes = 69,
+random_state = 42
+))
    
    b) SalesCount_Forecast_Appendix.ipynb
 
