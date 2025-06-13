@@ -1,7 +1,7 @@
 # Toronto-Island-Ferry-Ticket-Counts-Forecast
 This project is to forecast Toronto Island ferry ticket counts.
 
-The data part: Toronto Island Ferry Ticket Counts.csv
+The data part: Toronto Island Ferry Ticket Counts.csv is downloaded from https://open.toronto.ca/dataset/toronto-island-ferry-ticket-counts/.
 
 The code part includes three .ipynb files, and three .py files and one .pkl file.
 
