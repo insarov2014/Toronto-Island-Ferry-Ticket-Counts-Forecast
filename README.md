@@ -3,7 +3,7 @@ This project is to forecast Toronto Island ferry ticket counts.
 
 The data part: Toronto Island Ferry Ticket Counts.csv
 
-The code part includes three .ipynb files, and .py files and one .pkl file.
+The code part includes three .ipynb files, and three .py files and one .pkl file.
 
 1) redemption count forecast
    
