@@ -4,6 +4,7 @@ This project is to forecast Toronto Island ferry ticket counts.
 The data part: Toronto Island Ferry Ticket Counts.csv is downloaded from https://open.toronto.ca/dataset/toronto-island-ferry-ticket-counts/.
 
 I detected anomalies using Isolation Forest.
+
 I used statistical methods, machine learning methods and the methods from NIXTLA to forecast the sales counts. 
      
 The chosen model is sklearn.tree.ExtraTreesRegressor(
