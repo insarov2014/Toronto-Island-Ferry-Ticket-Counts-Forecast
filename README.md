@@ -3,35 +3,21 @@ This project is to forecast Toronto Island ferry ticket counts.
 
 The data part: Toronto Island Ferry Ticket Counts.csv is downloaded from https://open.toronto.ca/dataset/toronto-island-ferry-ticket-counts/.
 
-The code part includes three .ipynb files, and three .py files and one .pkl file.
+I detected anomalies using Isolation Forest.
+I used statistical methods, machine learning methods and the methods from NIXTLA to forecast the sales counts. 
+     
+The chosen model is sklearn.tree.ExtraTreesRegressor(
 
-1) redemption count forecast
-   
-   a) Modelling.ipynb (an improved model is statsforecast.models.HoltWinters(error_type='A', season_length = 365))
-   
-   https://nixtlaverse.nixtla.io/statsforecast/index.html
-   
-   b) model_metric_mae.py
-   
-   c) model_metric_rmse.py
-   
-   d) model_metric_mape.py
+n_estimators = 128,
 
-   e) my_model.pkl
-   
-   
-3) sales count forecast
-   
-   a) SalesCount_Forecasting.ipynb (chosen model is sklearn.tree.ExtraTreesRegressor(n_estimators = 121,
-max_depth = 16,
-min_samples_split = 12,
+max_depth = 19,
+
+min_samples_split = 13,
+
 min_samples_leaf = 9,
-max_leaf_nodes = 69,
+
+max_leaf_nodes = 72,
+
 random_state = 42
-))
 
-https://scikit-learn.org/stable/modules/generated/sklearn.tree.ExtraTreeRegressor.html
-   
-   b) SalesCount_Forecast_Appendix.ipynb
-
-The document part contains two pdf: Brief Description and Technical Description
+)
